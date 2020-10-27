@@ -41,11 +41,12 @@ function viewCart() {
 var totalCost=0;
 
 function total() {
-  //var totalCost=0;
+  var cost=0;
   // iterate over the cart
   for(var i=0; i<cart.length; i++){
     //add item price to total
-    totalCost += cart[i]['itemPrice']
+    cost += cart[i]['itemPrice']
+    totalCost=cost
   }
   return totalCost;
 }
