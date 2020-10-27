@@ -51,14 +51,10 @@ function total() {
 }
 
 function removeFromCart(item){
-  //index of an item in a cart
- // var index = cart.indexOf(item)
-  //use that index to splice item from cart 
-  // cart.splice(index,1)
   var foundItem = ""
-for(var i=0; i<cart.length; i++){
+  for(var i=0; i<cart.length; i++){
   if(cart[i]['itemName']===item){
-   foundItem = cart[i];
+    foundItem = cart[i];
   // delete cart[i]['itemName'];
   }
 }
