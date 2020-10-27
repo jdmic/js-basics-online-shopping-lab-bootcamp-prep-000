@@ -38,6 +38,7 @@ function viewCart() {
     //return answer 
   return `In your cart, you have${result}.`
 }
+var totalCost=0;
 
 function total() {
   var totalCost=0;
@@ -46,7 +47,6 @@ function total() {
     //add item price to total
     totalCost += cart[i]['itemPrice']
   }
-  // return total
   return totalCost;
 }
 
