@@ -50,6 +50,7 @@ function total() {
   return totalCost;
 }
 
+
 function removeFromCart(item){
   var foundItem = ""
   for(var i=0; i<cart.length; i++){
